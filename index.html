@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>unwakingart · a little outside the lines</title>
+<meta name="google-site-verification" content="SDAGSCQHWYcjTS4--6syw3I3Astp2yzxdDJcOhhv4FQ">
+<link rel="icon" type="image/png" href="images/icon-star.png">
+<link rel="canonical" href="https://unwakingart.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="unwakingart · Creative Hangouts &amp; Study Trips">
+<meta property="og:description" content="unwakingart: creative hangouts in Makati, art study trips, and art to look at a little closer.">
+<meta property="og:image" content="https://unwakingart.github.io/images/preview.jpg">
+<meta property="og:url" content="https://unwakingart.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="description" content="unwakingart: creative hangouts in Makati, art study trips, and art to look at a little closer.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "unwakingart", "url": "https://unwakingart.github.io/", "sameAs": ["https://www.instagram.com/unwakingart/"]}</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;800&family=DM+Mono:wght@300;400&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&display=swap">
+<style>
+  
+  :root { --ivory:#F1EBDD; --ink:#292B26; --sage:#D9E2D5; --blue:#A9B9D5; --coral:#E9B9A7; --paper:#FBF8F1; --mute:#5F615A; }
+  * { box-sizing: border-box; }
+  html { background: var(--ivory); }
+  body { margin: 0; color: var(--ink); font: 400 16px/1.55 Figtree, system-ui, sans-serif;
+         background: var(--ivory) url(images/paper.jpg) 0 0 / 900px repeat; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 560px; margin: 0 auto; padding: 0 20px; }
+  a { color: inherit; }
+
+  .top { text-align: center; padding: 40px 0 0; }
+  .wordmark { font: 800 44px/1 Figtree, sans-serif; letter-spacing: -0.045em; position: relative; display: inline-block; }
+  .wordmark .i { position: relative; }
+  .wordmark .i svg { position: absolute; left: 50%; top: 0.08em; width: 0.36em; transform: translateX(-50%); }
+  .tagline { font: 400 13px 'DM Mono', monospace; letter-spacing: 0.16em; margin-top: 12px; }
+  .hero { display: block; width: 100%; margin: 22px 0 0; height: auto; }
+  .lede { font: 400 25px/1.25 Newsreader, Georgia, serif; text-align: center; margin: 14px 0 0; }
+
+  .label { display: inline-block; font: 400 12px 'DM Mono', monospace; letter-spacing: 0.18em; text-transform: uppercase;
+           background: var(--sage); padding: 6px 14px 5px; transform: rotate(-1.5deg);
+           clip-path: polygon(0 8%, 4% 0, 30% 6%, 62% 0, 96% 5%, 100% 30%, 98% 72%, 100% 100%, 70% 94%, 35% 100%, 3% 95%, 0 60%); }
+  .ways { margin: 40px 0 0; text-align: center; }
+  .cards { display: grid; gap: 30px; margin-top: 22px; }
+  .card { position: relative; background: var(--paper); padding: 30px 24px 26px; text-align: left; box-shadow: 0 1px 0 rgba(41,43,38,.08), 0 10px 24px -18px rgba(41,43,38,.5); }
+  .card::before { content: ""; position: absolute; top: -11px; left: 50%; width: 92px; height: 24px; transform: translateX(-50%) rotate(-3deg);
+                  background: rgba(233,185,167,.78); }
+  .card:nth-child(2)::before { background: rgba(169,185,213,.8); transform: translateX(-50%) rotate(2deg); }
+  .card:nth-child(3)::before { background: rgba(217,226,213,.95); transform: translateX(-50%) rotate(-1deg); }
+  .num { display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; border: 1.5px solid var(--ink); border-radius: 50%;
+         font: italic 400 17px Newsreader, serif; margin-right: 10px; flex: none; }
+  .way { display: flex; align-items: center; font: 400 23px/1.2 Newsreader, Georgia, serif; }
+  .when { font: 400 12px 'DM Mono', monospace; letter-spacing: 0.14em; text-transform: uppercase; color: var(--mute); margin: 16px 0 4px; }
+  .card h2 { font: 600 19px/1.3 Figtree, sans-serif; margin: 0 0 6px; }
+  .card p { margin: 0; color: #3b3d37; }
+  .btn { display: inline-flex; align-items: center; gap: 10px; margin-top: 18px; background: var(--ink); color: var(--ivory); text-decoration: none;
+         font: 600 14px Figtree, sans-serif; padding: 11px 20px; border-radius: 999px; }
+  .btn.ghost { background: transparent; color: var(--ink); border: 1.5px solid var(--ink); }
+  .btn:hover, .btn:focus-visible { transform: translateY(-1px); }
+  .btns { display: flex; gap: 10px; flex-wrap: wrap; }
+  
+  .tools-head { margin-top: 26px; }
+  .tool { display: flex; align-items: center; gap: 12px; padding: 12px 0; border-top: 1px dashed rgba(41,43,38,.25); text-decoration: none; color: inherit; }
+  .tool + .tool { border-top-style: dashed; }
+  .tool img { width: 34px; height: 34px; flex: none; }
+  .tool span { flex: 1; } .tool b { display: block; font-weight: 600; } .tool small { display: block; font-size: 14px; color: #3b3d37; }
+  .tool i { font-style: normal; font-size: 18px; transition: transform .15s; }
+  .tool:hover i, .tool:focus-visible i { transform: translateX(3px); }
+
+  .story { margin: 56px 0 0; text-align: center; }
+  .story .coral { display: block; width: 86%; margin: 18px auto 0; height: auto; }
+  .story h3 { font: 400 27px/1.2 Newsreader, Georgia, serif; margin: 18px 0 0; }
+  .story .text { text-align: left; font: 400 18px/1.6 Newsreader, Georgia, serif; margin-top: 16px; }
+  .story .text p { margin: 0 0 14px; }
+
+  footer { background: var(--ink); color: var(--ivory); text-align: center; margin-top: 46px; padding: 42px 20px 46px; }
+  footer .wordmark { font-size: 32px; }
+  footer .tagline { color: #d9d3c4; }
+  footer .find { margin-top: 20px; font-size: 15px; }
+  footer .find a { text-decoration: underline; text-underline-offset: 3px; }
+</style>
+<style id="site-menu">
+  
+  .sx-site { position: sticky; top: 0; z-index: 50; background: rgba(241,235,221,.94); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); border-bottom: 1px solid rgba(41,43,38,.12); font-family: Figtree, system-ui, sans-serif; color: #292B26; }
+  .sx-row { max-width: var(--sx-w, 1080px); margin: 0 auto; padding: 0 20px; height: 62px; display: flex; align-items: center; gap: 28px; }
+  .sx-wm { font: 800 26px/1 Figtree, sans-serif; letter-spacing: -.045em; position: relative; text-decoration: none; color: inherit; margin-right: auto; transition: opacity .2s; }
+  .sx-wm .i { position: relative; } .sx-wm svg { position: absolute; left: 50%; top: .08em; width: .36em; transform: translateX(-50%); color: #EF7A56; }
+  .sx-nav { display: flex; gap: 26px; font: 500 15px Figtree, sans-serif; }
+  .sx-nav a { text-decoration: none; padding: 3px 0; border-bottom: 2px solid transparent; color: inherit; white-space: nowrap; }
+  .sx-nav a:hover { border-bottom-color: rgba(41,43,38,.3); }
+  .sx-n { font: italic 400 14px Newsreader, Georgia, serif; color: #5F615A; margin-right: 6px; }
+  .sx-nav a.on { border-bottom-color: #E9B9A7; font-weight: 600; }
+  .sx-soc { display: flex; gap: 12px; } .sx-soc a { color: inherit; display: flex; }
+  .sx-menu { display: none; align-items: center; gap: 8px; font: 600 14px Figtree, sans-serif; border: 1.5px solid #292B26; border-radius: 999px; padding: 8px 14px; background: transparent; color: inherit; cursor: pointer; }
+  .sx-menu i { display: block; width: 14px; height: 9px; border-top: 1.6px solid; border-bottom: 1.6px solid; position: relative; }
+  .sx-menu i::after { content: ""; position: absolute; left: 0; right: 0; top: 2.2px; border-top: 1.6px solid; }
+  .sx-cta { display: inline-flex; background: #292B26; color: #F1EBDD; text-decoration: none; font: 600 14px Figtree, sans-serif; padding: 10px 18px; border-radius: 999px; white-space: nowrap; }
+  .sx-sub { border-top: 1px dashed rgba(41,43,38,.18); }
+  .sx-sub .sx-row { height: 42px; gap: 22px; font: 400 12px 'DM Mono', monospace; letter-spacing: .14em; text-transform: uppercase; overflow-x: auto; scrollbar-width: none; }
+  .sx-sub .sx-row::-webkit-scrollbar { display: none; }
+  .sx-sub b { font-weight: 400; color: #5F615A; white-space: nowrap; }
+  .sx-sub nav { display: flex; gap: 22px; }
+  .sx-sub a { text-decoration: none; color: inherit; white-space: nowrap; padding: 4px 9px; margin: 0 -9px; }
+  .sx-sub a.on { background: #D9E2D5; }
+  .sx-sub .sx-tool { display: inline-flex; align-items: center; gap: 7px; } .sx-sub .sx-tool img { width: 18px; height: 18px; }
+  .sx-sheet { display: none; position: fixed; inset: 0; z-index: 60; background: #F1EBDD; padding: 0 20px 30px; overflow: auto; font-family: Figtree, system-ui, sans-serif; color: #292B26; }
+  .sx-sheet .sx-row { padding: 0; }
+  .sx-close { margin-left: auto; font: 600 14px Figtree, sans-serif; border: 1.5px solid #292B26; border-radius: 999px; padding: 8px 14px; background: transparent; color: inherit; cursor: pointer; }
+  .sx-way { display: block; text-decoration: none; color: inherit; padding: 20px 0 18px; border-bottom: 1px dashed rgba(41,43,38,.25); }
+  .sx-way .sx-n { display: inline-flex; width: 30px; height: 30px; border: 1.5px solid; border-radius: 50%; align-items: center; justify-content: center; font-size: 15px; color: inherit; margin-right: 12px; vertical-align: 5px; }
+  .sx-way b { font: 400 34px/1.1 Newsreader, Georgia, serif; }
+  .sx-way small { display: block; font: 400 12px 'DM Mono', monospace; letter-spacing: .14em; text-transform: uppercase; color: #5F615A; margin: 8px 0 0 42px; }
+  .sx-way.on b { background: linear-gradient(transparent 62%, rgba(233,185,167,.95) 62%); }
+  .sx-tools { margin: 6px 0 0 42px; display: grid; gap: 4px; }
+  .sx-tools a { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; font: 500 17px Figtree, sans-serif; padding: 6px 0; } .sx-tools img { width: 26px; height: 26px; }
+  .sx-follow { margin-top: 26px; display: flex; gap: 10px; } .sx-follow a { display: inline-flex; gap: 8px; align-items: center; border: 1.5px solid #292B26; border-radius: 999px; padding: 10px 16px; text-decoration: none; color: inherit; font: 600 14px Figtree, sans-serif; }
+  .sx-art { display: block; width: 78%; max-width: 420px; margin: 34px auto 0; height: auto; }
+  html.sx-open { overflow: hidden; } html.sx-open .sx-sheet { display: block; }
+  .sx-watch .sx-site .sx-wm { opacity: 0; pointer-events: none; } .sx-watch.sx-past .sx-site .sx-wm { opacity: 1; pointer-events: auto; }
+  .sx-map { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 22px 30px; max-width: 760px; margin: 28px auto 0; text-align: left; font-family: Figtree, system-ui, sans-serif; }
+  .sx-map h4 { margin: 0 0 8px; font: 400 11px 'DM Mono', monospace; letter-spacing: .16em; text-transform: uppercase; color: #bdb6a6; }
+  .sx-map a { display: block; color: #F1EBDD; text-decoration: none; font-size: 15px; padding: 3px 0; } .sx-map a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  @media (max-width: 760px) { .sx-nav, .sx-soc, .sx-sub b { display: none; } .sx-menu { display: inline-flex; } .sx-row { gap: 10px; } .sx-wm { font-size: 24px; } }
+</style>
+<script>(function(){var v="20261030104837";function c(){fetch("version.txt?"+Date.now(),{cache:"no-store"}).then(function(r){return r.text()}).then(function(t){t=t.trim();if(/^\d+$/.test(t)&&t!==v&&location.search.indexOf("v="+t)<0){location.replace(location.pathname+"?v="+t+location.hash)}}).catch(function(){})}c();document.addEventListener("visibilitychange",function(){if(!document.hidden)c()});window.addEventListener("pageshow",function(e){if(e.persisted)c()})})();</script>
+</head>
+<body class="sx-home">
+
+<header class="sx-site"><div class="sx-row">
+  <a class="sx-wm" href="https://unwakingart.github.io/" data-site aria-label="unwakingart, home">unwak<span class="i">ı<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 0 C10.8 6.5 13.5 9.2 20 10 C13.5 10.8 10.8 13.5 10 20 C9.2 13.5 6.5 10.8 0 10 C6.5 9.2 9.2 6.5 10 0Z" fill="currentColor"/></svg></span>ngart</a>
+  <nav class="sx-nav" aria-label="unwakingart"><a href="https://unwakingart.github.io/hangouts/" data-site><span class="sx-n">01</span>Creative hangouts</a><a href="https://unwakingart.github.io/trips/" data-site><span class="sx-n">02</span>Study trips</a><a href="https://unwakingart.github.io/value-finder/" data-site><span class="sx-n">03</span>Free tools</a></nav>
+  <div class="sx-soc"><a href="https://www.instagram.com/unwakingart/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg></a><a href="https://www.tiktok.com/@unwakingart" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M16.6 3c.4 2.3 1.9 3.8 4.2 4v3.1c-1.6 0-3-.5-4.2-1.3v6.4c0 3.4-2.6 5.8-5.8 5.8S5 18.6 5 15.3c0-3.3 2.8-5.9 6.2-5.6v3.2c-1.6-.3-3 .8-3 2.4 0 1.4 1.1 2.5 2.6 2.5 1.5 0 2.6-1.1 2.6-2.6V3h3.2Z"/></svg></a></div>
+  <button class="sx-menu" type="button" aria-expanded="false" aria-controls="sx-sheet"><i></i>Menu</button>
+</div></header>
+<div class="sx-sheet" id="sx-sheet" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="sx-row"><a class="sx-wm" href="https://unwakingart.github.io/" data-site aria-label="unwakingart, home">unwak<span class="i">ı<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 0 C10.8 6.5 13.5 9.2 20 10 C13.5 10.8 10.8 13.5 10 20 C9.2 13.5 6.5 10.8 0 10 C6.5 9.2 9.2 6.5 10 0Z" fill="currentColor"/></svg></span>ngart</a><button class="sx-close" type="button">Close ✕</button></div>
+  <a class="sx-way" href="https://unwakingart.github.io/hangouts/" data-site><span class="sx-n">01</span><b>Creative hangouts</b><small>Makati · at a café</small></a>
+  <a class="sx-way" href="https://unwakingart.github.io/trips/" data-site><span class="sx-n">02</span><b>Art study trips</b><small>Hanoi · March 2027</small></a>
+  <div class="sx-way"><span class="sx-n">03</span><b>Free art tools</b><div class="sx-tools"><a href="https://unwakingart.github.io/value-finder/" data-site><img src="https://unwakingart.github.io/value-finder/icon.png" width="26" height="26" alt="">Value Finder</a><a href="https://unwakingart.github.io/face-planes/" data-site><img src="https://unwakingart.github.io/face-planes/icon.png" width="26" height="26" alt="">Face Planes</a><a href="https://unwakingart.github.io/drawing-notebook/" data-site><img src="https://unwakingart.github.io/drawing-notebook/icon.png" width="26" height="26" alt="">Drawing notebook</a></div></div>
+  <div class="sx-follow"><a href="https://www.instagram.com/unwakingart/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg> Instagram</a><a href="https://www.tiktok.com/@unwakingart" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M16.6 3c.4 2.3 1.9 3.8 4.2 4v3.1c-1.6 0-3-.5-4.2-1.3v6.4c0 3.4-2.6 5.8-5.8 5.8S5 18.6 5 15.3c0-3.3 2.8-5.9 6.2-5.6v3.2c-1.6-.3-3 .8-3 2.4 0 1.4 1.1 2.5 2.6 2.5 1.5 0 2.6-1.1 2.6-2.6V3h3.2Z"/></svg> TikTok</a></div>
+  <img class="sx-art" src="https://unwakingart.github.io/images/collage-face.webp" width="860" height="460" alt="" loading="lazy">
+</div>
+<script>
+(function () {
+  var h = document.documentElement, b = document.querySelector('.sx-menu'), s = document.getElementById('sx-sheet');
+  function set(open) { h.classList.toggle('sx-open', open); b.setAttribute('aria-expanded', open); if (open) s.querySelector('.sx-close').focus(); else b.focus(); }
+  b.addEventListener('click', function () { set(true); });
+  s.querySelector('.sx-close').addEventListener('click', function () { set(false); });
+  s.addEventListener('click', function (e) { if (e.target.closest('a[href*="#"]')) set(false); });
+  document.addEventListener('keydown', function (e) {
+    if (!h.classList.contains('sx-open')) return;
+    if (e.key === 'Escape') set(false);
+    if (e.key === 'Tab') {
+      var f = s.querySelectorAll('a[href], button'), first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { last.focus(); e.preventDefault(); }
+      else if (!e.shiftKey && document.activeElement === last) { first.focus(); e.preventDefault(); }
+    }
+  });
+  var wide = window.matchMedia('(min-width: 761px)');
+  function shut() { if (wide.matches && h.classList.contains('sx-open')) { h.classList.remove('sx-open'); b.setAttribute('aria-expanded', false); } }
+  if (wide.addEventListener) wide.addEventListener('change', shut); else wide.addListener(shut);
+
+  function watch() {
+    var big = document.querySelector('.sx-home .top .wordmark');
+    if (big && 'IntersectionObserver' in window) { document.body.classList.add('sx-watch'); new IntersectionObserver(function (es) { document.body.classList.toggle('sx-past', !es[0].isIntersecting); }).observe(big); }
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', watch); else watch();
+})();
+</script>
+
+<main class="wrap">
+  <header class="top">
+    <div class="wordmark" aria-label="unwakingart">unwak<span class="i">ı<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 0 C10.8 6.5 13.5 9.2 20 10 C13.5 10.8 10.8 13.5 10 20 C9.2 13.5 6.5 10.8 0 10 C6.5 9.2 9.2 6.5 10 0Z" fill="currentColor"/></svg></span>ngart</div>
+    <div class="tagline">a little outside the lines</div>
+    <img class="hero" src="images/collage-face.webp" width="860" height="460" alt="A collage: a classical statue's face on torn blue paper, a coral star, a black star and a golden moon">
+    <p class="lede">A creative world for the curious.</p>
+  </header>
+
+  <section class="ways">
+    <span class="label">Three ways in</span>
+    <div class="cards">
+      
+      <article class="card">
+        <div class="way"><span class="num">01</span>Creative hangouts</div>
+        <div class="when">Makati · Nov 28, 2026</div>
+        <h2>Sunset Oil Painting</h2>
+        <p>Try your hand at oil painting. We'll meet at a café. All materials provided. No experience needed.</p>
+        <a class="btn" href="https://unwakingart.github.io/hangouts/" data-goatcounter-click="link-workshop" data-goatcounter-title="Link: workshop" target="_blank" rel="noopener">Join the hangout <span aria-hidden="true">→</span></a>
+      </article>
+      <article class="card">
+        <div class="way"><span class="num">02</span>Art study trips</div>
+        <div class="when">Hanoi · March 2027</div>
+        <h2>Oil Painting in Hanoi</h2>
+        <p>A week in Hanoi, painting still life in oil. For anyone who can draw.</p>
+        <a class="btn" href="https://unwakingart.github.io/trips/" data-goatcounter-click="link-trips" data-goatcounter-title="Link: trips" target="_blank" rel="noopener">See the program <span aria-hidden="true">→</span></a>
+      </article>
+      <article class="card">
+        <div class="way"><span class="num">03</span>Art content &amp; learning</div>
+        <div class="when">Free art tools</div>
+        <a class="tool" href="https://unwakingart.github.io/value-finder/" data-goatcounter-click="link-value-finder" data-goatcounter-title="Link: Value Finder" target="_blank" rel="noopener"><img src="https://unwakingart.github.io/value-finder/icon.png" width="34" height="34" alt=""><span><b>Value Finder</b><small>How light or dark is any spot in a photo?</small></span><i aria-hidden="true">→</i></a>
+        <a class="tool" href="https://unwakingart.github.io/face-planes/" data-goatcounter-click="link-face-planes" data-goatcounter-title="Link: Face Planes" target="_blank" rel="noopener"><img src="https://unwakingart.github.io/face-planes/icon.png" width="34" height="34" alt=""><span><b>Face Planes</b><small>See the planes of the face on any portrait.</small></span><i aria-hidden="true">→</i></a>
+        <div class="when tools-head">Instagram · TikTok</div>
+        <h2>Look a little closer</h2>
+        <p>Short videos about art, color and seeing.</p>
+        <div class="btns">
+          <a class="btn ghost" href="https://www.instagram.com/unwakingart/" data-goatcounter-click="link-instagram" target="_blank" rel="noopener">Instagram</a>
+          <a class="btn ghost" href="https://www.tiktok.com/@unwakingart" data-goatcounter-click="link-tiktok" target="_blank" rel="noopener">TikTok</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="story">
+    <span class="label" style="background:var(--coral)">A note for the curious</span>
+    
+    <div class="text">
+      <p>There's a whole world to discover when you start looking a little closer.</p>
+      <p>In the details of an old painting. In the streets of an unfamiliar city. In the sketch that didn't turn out quite right, but made you want to keep going.</p>
+      <p>unwakingart is for people who want to make more room for creativity in their lives.</p>
+      <p>You don't need to be an artist. You don't need to know where to begin. You just need a little curiosity.</p>
+      <p>Through creative hangouts, art study trips, and ways to explore art together, we make space for trying new things, discovering old things differently, and meeting people who are curious about the same things you are.</p>
+      <p>Come to make something. Come to see something. Come because you want to spend an afternoon a little differently.</p>
+      <p>There's no one right way to be creative. And there's always more to discover when you step a little outside the lines</p>
+    </div>
+    <img class="coral" src="images/collage-coral.webp" width="735" height="365" alt="" loading="lazy">
+  </section>
+</main>
+
+<footer>
+  <div class="wordmark" aria-label="unwakingart">unwak<span class="i">ı<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 0 C10.8 6.5 13.5 9.2 20 10 C13.5 10.8 10.8 13.5 10 20 C9.2 13.5 6.5 10.8 0 10 C6.5 9.2 9.2 6.5 10 0Z" fill="currentColor"/></svg></span>ngart</div>
+  <div class="tagline">a little outside the lines</div>
+  <div class="sx-map"><div><h4>Creative hangouts</h4><a href="https://unwakingart.github.io/hangouts/" data-site>The hangout</a><a href="https://unwakingart.github.io/hangouts/#tickets" data-site>Dates &amp; fee</a></div><div><h4>Art study trips</h4><a href="https://unwakingart.github.io/trips/" data-site>Oil Painting in Hanoi</a><a href="https://unwakingart.github.io/trips/#payment" data-site>How to apply</a></div><div><h4>Free art tools</h4><a href="https://unwakingart.github.io/value-finder/" data-site>Value Finder</a><a href="https://unwakingart.github.io/face-planes/" data-site>Face Planes</a><a href="https://unwakingart.github.io/drawing-notebook/" data-site>Drawing notebook</a></div><div><h4>About</h4><a href="https://unwakingart.github.io/michelle/" data-site>My art journey</a></div><div><h4>Follow</h4><a href="https://www.instagram.com/unwakingart/" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@unwakingart" target="_blank" rel="noopener">TikTok</a></div></div>
+  <div class="find">@unwakingart on <a href="https://www.instagram.com/unwakingart/" target="_blank" rel="noopener">Instagram</a> and <a href="https://www.tiktok.com/@unwakingart" target="_blank" rel="noopener">TikTok</a></div>
+</footer>
+
+<script data-goatcounter="https://unwakingart.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>
